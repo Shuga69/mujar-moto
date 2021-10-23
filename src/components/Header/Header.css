@@ -1,0 +1,31 @@
+.header-container{
+    width: 100%;
+    background: rgb(197, 0, 0);
+    display: flex;
+    justify-content: center;
+
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+}
+.header-menu a{
+    text-decoration: none;
+    color: #FFFDEF;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.header-menu a:hover{
+    color: #242424;
+    transition: 0.5s;
+}
+.header-footer{
+display: flex;
+    justify-content: flex-end;
+   height: 100%;
+
+    background: rgb(197, 0, 0);
+}
